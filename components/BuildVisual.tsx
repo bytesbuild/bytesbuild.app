@@ -4,7 +4,7 @@ export function BuildVisual() {
       aria-hidden
       className="pointer-events-none absolute inset-0 overflow-hidden"
     >
-      <div className="animate-drift absolute -right-[8%] top-[8%] h-[78%] w-[72%] max-w-[920px] md:right-[2%] md:top-[6%]">
+      <div className="animate-drift absolute -right-[18%] top-[42%] h-[58%] w-[110%] max-w-none opacity-55 md:right-[2%] md:top-[6%] md:h-[78%] md:w-[72%] md:max-w-[920px] md:opacity-100">
         <svg
           viewBox="0 0 720 640"
           fill="none"
@@ -180,7 +180,7 @@ export function BuildVisual() {
       </div>
 
       {/* Soft vignette so type stays readable on the left */}
-      <div className="absolute inset-y-0 left-0 w-full bg-gradient-to-r from-[color-mix(in_oklab,var(--mist)_92%,transparent)] via-[color-mix(in_oklab,var(--mist)_55%,transparent)] to-transparent md:w-[58%]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[color-mix(in_oklab,var(--mist)_88%,transparent)] via-[color-mix(in_oklab,var(--mist)_72%,transparent)] to-transparent md:inset-y-0 md:left-0 md:w-[58%] md:bg-gradient-to-r md:from-[color-mix(in_oklab,var(--mist)_92%,transparent)] md:via-[color-mix(in_oklab,var(--mist)_55%,transparent)] md:to-transparent" />
     </div>
   );
 }

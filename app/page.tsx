@@ -97,7 +97,7 @@ export default function Home() {
             <p className="animate-rise delay-2 mt-6 max-w-md text-base leading-relaxed text-ink-soft md:text-lg">
               A boutique product engineering studio for founders who need clarity, craft, and ships that hold up.
             </p>
-            <div className="animate-rise delay-3 mt-9 flex flex-wrap items-center gap-3">
+            <div className="animate-rise delay-3 mt-9 flex w-full max-w-md flex-col gap-3 sm:max-w-none sm:flex-row sm:flex-wrap sm:items-center">
               <a
                 href="#contact"
                 className="inline-flex items-center justify-center rounded-md bg-amber px-5 py-3 text-sm font-semibold text-amber-ink shadow-[0_10px_30px_rgba(232,163,23,0.28)] transition hover:brightness-105"
@@ -106,7 +106,7 @@ export default function Home() {
               </a>
               <a
                 href="#work"
-                className="inline-flex items-center justify-center rounded-md border border-ink/15 bg-paper/70 px-5 py-3 text-sm font-semibold text-ink backdrop-blur-sm transition hover:border-teal/40 hover:text-teal-deep"
+                className="inline-flex items-center justify-center rounded-md border border-ink/15 bg-paper/80 px-5 py-3 text-sm font-semibold text-ink backdrop-blur-sm transition hover:border-teal/40 hover:text-teal-deep"
               >
                 See the work
               </a>
